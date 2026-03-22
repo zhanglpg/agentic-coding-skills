@@ -10,15 +10,25 @@ This repository contains custom skills for AI coding agents, designed to enhance
 
 ```
 .
-├── refactor-complexity/    # Complexity-driven iterative refactoring skill
+├── local-repo-sanitizer/  # Automated repo maintenance and health checks
+│   ├── SKILL.md           # Skill definition and workflow
+│   └── config.json        # Repository list configuration
+├── refactor-complexity/   # Complexity-driven iterative refactoring skill
 │   └── SKILL.md           # Skill definition and usage instructions
-├── skills/                # Individual agent skills (future)
-├── configs/               # Configuration templates (future)
-├── prompts/               # Optimized prompts for coding tasks (future)
-└── examples/              # Usage examples (future)
+└── LICENSE
 ```
 
 ## Available Skills
+
+### local-repo-sanitizer
+
+Automated maintenance for configured GitHub repositories. Deep-analyzes and updates READMEs, ensures all tests are covered in CI, and fixes broken GitHub Actions workflows.
+
+**Use when:** You want to sanitize repos, check repo health, or run repo maintenance across multiple repositories.
+
+**Configuration:** Edit `local-repo-sanitizer/config.json` to define the list of repositories to process. Each entry specifies `name`, `path`, `remote` (owner/repo), and `branch`.
+
+See [`local-repo-sanitizer/SKILL.md`](local-repo-sanitizer/SKILL.md) for full documentation.
 
 ### refactor-complexity
 
