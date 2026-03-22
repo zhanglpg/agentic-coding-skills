@@ -8,7 +8,7 @@
     },
     {
       "name": "agentic-coding-skills",
-      "path": "~/claudews/agentic-coding-skills",
+      "path": "~/.claude/skills",
       "remote": "zhanglpg/agentic-coding-skills",
       "branch": "main"
     },
