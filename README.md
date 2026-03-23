@@ -46,6 +46,9 @@ pip install complexity-accounting
 pip install complexity-accounting[go]      # Go support
 pip install complexity-accounting[ts]      # TypeScript support
 pip install complexity-accounting[java]    # Java support
+pip install complexity-accounting[js]      # JavaScript support
+pip install complexity-accounting[rust]    # Rust support
+pip install complexity-accounting[cpp]     # C++ support
 ```
 
 **Usage:**
